@@ -10,14 +10,14 @@ module.exports = {
    
     // for testnet
     testnet: {
-      url: "https://eth.bd.evmos.dev:8545",
+      url: "https://data-seed-prebsc-2-s3.binance.org:8545",
       accounts: [process.env.PRIVATE_KEY],
       // allowUnlimitedContractSize: true
     },
 
         // for mainnet
         'optimism': {
-          url: "https://eth.bd.evmos.org:8545",
+          url: "https://bsc-dataseed.binance.org",
           accounts: [process.env.PRIVATE_KEY],
         },
 
