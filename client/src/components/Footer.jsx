@@ -9,7 +9,7 @@ const Footer = () => (
         <img src={logo} alt="logo" className="w-12" />
       </div>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-        <p className="text-white text-center text-base">Soldier Ant Colony 2022. All rights reserved.</p>
+        <p className="text-white text-center text-base">Soldier Ant Colony 2023. All rights reserved.</p>
 
       </div>
     </div>

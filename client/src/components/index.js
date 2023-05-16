@@ -7,4 +7,4 @@ export { default as MintCharacter } from "./MintCharacter";
 export { default as Roadmap } from "./Roadmap";
 export { default as Battle } from "./Battle";
 export { default as Market } from "./Market";
-export { default as CovalentGetNfts } from "./covalent-get-nfts/CovalentGetNfts";
+export { default as Particle } from "./particle";

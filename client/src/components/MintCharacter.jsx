@@ -59,7 +59,7 @@ const MintCharacter = () => {
 
   const sendTxToBlockchain = async (metaData) => {
     try {
-      setTxStatus("connecting to EVMOS Testnet Blockchain.");
+      setTxStatus("connecting to BNB Testnet Blockchain.");
       const web3Modal = new Web3Modal();
       const connection = await web3Modal.connect();
       const provider = new ethers.providers.Web3Provider(connection);
@@ -75,7 +75,7 @@ const MintCharacter = () => {
       await mintNFTTx.wait();
       return mintNFTTx;
     } catch (error) {
-      setErrorMessage("Failed to send tx to EVMOS Testnet.");
+      setErrorMessage("Failed to send tx to BNB Testnet.");
       console.log(error);
     }
   };
@@ -86,7 +86,7 @@ const MintCharacter = () => {
     console.log("image ipfs path is", imgViewString);
     setImageView(imgViewString);
     setMetaDataURl(getIPFSGatewayURL(metaData.url));
-    setTxURL(`https://evm.evmos.dev/tx/${mintNFTTx.hash}`);
+    setTxURL(`https://testnet.bscscan.com/tx/${mintNFTTx.hash}`);
     setTxStatus("Charcter registration was successfully!");
     console.log("Preview details completed");
   };
@@ -137,7 +137,7 @@ const MintCharacter = () => {
             onChange={(e) => updateFormInput({ ...formInput, hp: e.target.value })}
           />
           <input
-            placeholder="Asset Price in EVMOS"
+            placeholder="Asset Price in BNB"
             className="mt-5 border rounded p-4 text-xl"
             onChange={(e) => updateFormInput({ ...formInput, price: e.target.value })}
           />
