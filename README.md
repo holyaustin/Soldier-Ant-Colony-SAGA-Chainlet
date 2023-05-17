@@ -8,7 +8,7 @@ This project was built as part of the 2023 Hackathon. The project is submitted a
 
 ## Description
 
-This project implements the bionature's attack exhbited by one of the smallest creatures on planet earth. The soldier ant lives in colonies and attacks other colonies or any where there is food for survival. The Concept of this game is made as simple as possible to enable even a novice understand how to play the game.
+This project implements the bionature's attack exhbited by one of the smallest creatures on planet earth. The soldier ant lives in colonies and attacks other colonies or any where there is food for survival. The Concept of this game is made as simple as possible to enable even a novice understand how to play the game. Players get a soldier ant NFT character to access the game and comabat themselves untill one player losses. It is FUN. Try it out.
 
 ## How to run this project locally
 Try running some of the following tasks:
