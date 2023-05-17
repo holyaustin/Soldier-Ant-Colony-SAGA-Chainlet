@@ -7,6 +7,7 @@ const jsonRpcUrlMap = {
   1: ['https://1rpc.io/eth'], 
   56: ['https://1rpc.io/bnb'],
   10: ['https://1rpc.io/op'],
+  97: ['https://bsc-testnet.publicnode.com'],
   42161: ['https://1rpc.io/arb'],
   42220: ['https://1rpc.io/celo'],
   137: ['https://1rpc.io/matic'],
