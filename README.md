@@ -54,7 +54,7 @@ application that attract users, developers, and liquidity providers, promoting c
 and synergy between the Ethereum and Binance Smart Chain communities.A total of six (6) blockchain RPCs was added to help users swap currencies in six different blocchains. This products leverages the power of  Uniswap V3's capabilities on BSC, and other chainsto create opportunities that
 encourage liquidity providers to support the expansion of the Uniswap V3 ecosystem on BSC and other chains.
 
-Chainlink (VRF and Automation) Automation was used to set the Marketplace NFT alert and Game character Miniting Automation Alert.
+Chainlink (VRF and Automation) Automation was used to set the Marketplace NFT alert and Game character Miniting Automation Alert. The VRF is implemented in the epicgame contract. Automation links are below:
 ChainLink NFT1: https://automation.chain.link/bnb-chain-testnet/56369752883797138944621685627371544339948876050928539202810431358204769632043
 
 Mint Charccter NFT : https://automation.chain.link/bnb-chain-testnet/57697752071177149944891035008091986159429241676476865479089053242978330993962
