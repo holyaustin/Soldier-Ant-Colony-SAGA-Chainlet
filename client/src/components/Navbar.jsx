@@ -4,6 +4,8 @@ import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import ConnectSequence from "./sequencewallet.tsx";
 import logo from "../assets/logo.png";
+import Particle from "./Particle.tsx";
+//import SwapToken from "./pages/swaptoken";
 
 const NavBarItem = ({ title, classprops }) => (
   <li className={`mx-4 cursor-pointer ${classprops}`}>{title}</li>
@@ -23,15 +25,16 @@ const Navbar = () => {
         <Link to="/marketplace">MarketPlace</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <Link to="/create">Collaborate</Link>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <Link to="/swaptoken">SwapToken</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
-        <li className="justify-center text-black font-semibold bg-green-300 py-5 px-20 mx-8 sm:mx-3 sm:py-2 sm:px-8 rounded-full cursor-pointer hover:bg-green-800 hover:text-white text-center">
-          <a href="https://pancakeswap.finance/swap" target="_blank" rel="noreferrer">
+        <li className="justify-center text-black font-semibold bg-green-300 py-5 px-20 mx-8 sm:mx-3 sm:py-4 sm:px-8 rounded-full cursor-pointer hover:bg-green-800 hover:text-white text-center">
+          <a href="https://app.uniswap.org/#/swap" target="_blank" rel="noreferrer">
             Swap / Buy BNB Tokens Here
           </a>
         </li>
 
-        <ConnectSequence />
         <Particle />
 
       </ul>

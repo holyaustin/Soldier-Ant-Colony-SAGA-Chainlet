@@ -7,7 +7,7 @@ import SelectCharacter from "./SelectCharacter";
 import myEpicGame from "../utils/MyEpicGame.json";
 import Arena from "./Arena";
 import LoadingIndicator from "./LoadingIndicator";
-// import landingimage from "../assets/bg1.gif"; // relative path to image
+import Footer  from "./Footer";
 import bgvideo from "../assets/foodsearch.mp4";
 
 /*
@@ -113,7 +113,7 @@ const App = () => {
           </video>
           <button
             type="button"
-            className="cta-button connect-wallet-button"
+            className="cta-button connect-wallet-button text-3xl"
             onClick={connectWalletAction}
           >
             Play
@@ -134,8 +134,8 @@ const App = () => {
 
   const checkNetwork = async () => {
     try {
-      if (window.ethereum.networkVersion !== "9000") {
-        alert("Please connect to EVMOS Testnet!");
+      if (window.ethereum.networkVersion !== "97") {
+        alert("Please change your Blockchain network to BNB Testnet!");
         navigate("/");
       }
     } catch (error) {
@@ -230,8 +230,11 @@ const App = () => {
         </div>
          */}
       </div>
+      <Footer />
     </div>
+    
   );
+  
 };
-
+<Footer />
 export default App;

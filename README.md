@@ -1,9 +1,10 @@
 # Soldier Ant Colony BNB Chain Zero2Hero HackathonBNB Chain Zero2Hero Hackathon
-### An epic web3 game that mimics the bio-inspration of soldier-ant for food hunt. Players finds it easy to play and earn as well as collaborating to make game characters.
+### An epic web3 game that mimics the bio-inspration of soldier-ant for food hunt. Players finds it easy to play and earn as well as collaborating to create game characters and sell in the game marketplace.
 
 ## Introduction
-This project was built as part of the 2022 Hackathon. The project is submitted as a GameFi, NFT and Meterverse Track project. Soldier Ant Colony BNB Chain Zero2Hero HackathonBNB Chain Zero2Hero Hackathon
+This project was built as part of the 2023 Hackathon. The project is submitted as a GameFi, NFT and Meterverse Track project. Soldier Ant Colony BNB Chain Zero2Hero HackathonBNB Chain Zero2Hero Hackathon
 
+![Soldier-Ant](https://github.com/holyaustin/Soldier-Ant-Colony-BNB/blob/main/client/src/assets/bg1.gif)
 
 ## Description
 
@@ -27,20 +28,18 @@ npm run build
 ## How to deploy to Polygon Mumbai  blockchain, update hardhat.config
 npx hardhat run scripts/deploy.js --network testnet
 
-Game contract address: 0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
+Game contract address: 0x085446624cA30579532B12B7EAeD211B1E6Ac1de
 
-Game Explorer Url: https://evm.evmos.dev/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
+Game Explorer Url: https://testnet.bscscan.com/address/0x085446624ca30579532b12b7eaed211b1e6ac1de
 
-https://evm.evmos.dev/address/0xa6d6f4556b022c0c7051d62e071c0acece5a1228
+Marketplace contract address: 0xc310585ad34ddef51009a9c92f38e8ba8a5d2375
 
-Marketplace contract address: 0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11
-
-Marketplace Explorer Url: https://evm.evmos.dev/address/0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11
+Marketplace Explorer Url: https://testnet.bscscan.com/address/0xc310585ad34ddef51009a9c92f38e8ba8a5d2375
 
 
 ## How to play
-Final project deployed to EVMOS Testnet
-1. Switch your wallet network to EVMOS Testnet
+Final project deployed to BNBTestnet
+1. Switch your wallet network to BNB Testnet
 2. Connect you wallet
 3. Mint a character from our Marketplace
 4. Enagege in the quest to get the lucky food slide
@@ -50,27 +49,40 @@ Final project deployed to EVMOS Testnet
    
 
 ## Protocols Used in this Project
-Chainlink (VRF and Automation)
+Uniswap: THe Unisawp widget was used to creating an innovative tools, service, and
+application that attract users, developers, and liquidity providers, promoting collaboration
+and synergy between the Ethereum and Binance Smart Chain communities.A total of six (6) blockchain RPCs was added to help users swap currencies in six different blocchains. This products leverages the power of  Uniswap V3's capabilities on BSC, and other chainsto create opportunities that
+encourage liquidity providers to support the expansion of the Uniswap V3 ecosystem on BSC and other chains.
 
-IPFS/Filecoin (NFT.Storage)
+Chainlink (VRF and Automation) Automation was used to set the Marketplace NFT alert and Game character Miniting Automation Alert
 
-BNB Testnet (9000)
 
-Sequence Wallet Integration
+IPFS/Filecoin (NFT.Storage) used to stored NFT marketplace Charcaters
 
-Vercel
+BNB Testnet : Contracts deployed to the following address on BNB Testnet : 
+(Game Address = 0x085446624cA30579532B12B7EAeD211B1E6Ac1de) and
+(marketplaceAddress = "0xC310585aD34ddEF51009A9C92f38E8bA8A5d2375)
+
+Particle WaaS Connect Wallet Integration: WaaS(Wallet-as-a-Service) SDKs (including Connect, Auth, Wallet
+SDK ) was implemented to realize an in-app social login authentication and wallet functionalities. This was crucial to help web3 Gamers from the gamers guiuld seemlessly onboard into this web3 game.
+
+Automata (1RPC) : we showcased the practical usage, integration, or development of 1RPC in on Uniswap v3 widget. The implementation was for sic (6) Blockchains in a relevant manner.
+
+Vercel - live hosting of the frontend
 
 
 ## Tools Used in this Project
-Vite.js (React Js)
+Vite.js (React Js) Framework
 
-Solidity
+Solidity smart contract language
 
 Ethers.js
 
 Photoeditor
 
 Video Editor
+
+Visual studio code
 
 
 ## Demo / Live Links

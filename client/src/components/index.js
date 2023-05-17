@@ -7,4 +7,6 @@ export { default as MintCharacter } from "./MintCharacter";
 export { default as Roadmap } from "./Roadmap";
 export { default as Battle } from "./Battle";
 export { default as Market } from "./Market";
-export { default as Particle } from "./particle";
+export { default as App } from "./App";
+export { default as EvmDemo } from "./connect-evm-demo";
+export { default as Particle } from "./Particle.tsx";

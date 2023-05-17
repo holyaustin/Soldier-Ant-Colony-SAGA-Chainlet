@@ -6,7 +6,7 @@ import "./index.css";
 import MarketPlace from "./pages/marketplace";
 import Create from "./pages/create";
 import BattleGround from "./pages/battleground";
-import MyNfts from "./pages/dashboardnfts";
+import SwapToken from "./pages/swaptoken";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -16,7 +16,7 @@ ReactDOM.render(
       <Route path="battleground" element={<BattleGround />} />
       <Route path="marketplace" element={<MarketPlace />} />
       <Route path="create" element={<Create />} />
-      <Route path="NFTdashboard" element={<MyNfts />} />
+      <Route path="SwapToken" element={<SwapToken />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root"),

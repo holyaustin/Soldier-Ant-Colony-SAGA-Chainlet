@@ -1,12 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import bg from "../assets/bgtalk.mp4";
+import Particle from "./Particle.tsx";
 
 const Landing = () => {
   const navigate = useNavigate();
 
   const getstarted = async () => {
     try {
+      <Particle />
       navigate("/battleground");
     } catch (error) {
       console.error(error);
@@ -54,7 +56,7 @@ const Landing = () => {
           </button>
 
         </div>
-      </div>
+       </div>
       <div className="sm:flex-[0.9] lg:flex-[0.9]flex-initial justify-left items-center content-center">
         <video
           loop
