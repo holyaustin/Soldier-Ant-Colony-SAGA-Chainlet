@@ -30,8 +30,8 @@ const Navbar = () => {
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
         <li className="justify-center text-black font-semibold bg-green-300 py-5 px-20 mx-8 sm:mx-3 sm:py-4 sm:px-8 rounded-full cursor-pointer hover:bg-green-800 hover:text-white text-center">
-          <a href="https://app.uniswap.org/#/swap" target="_blank" rel="noreferrer">
-            Swap / Buy BNB Tokens Here
+          <a href="https://zkbridge.com/nft" target="_blank" rel="noreferrer">
+            NFT Bridge
           </a>
         </li>
 

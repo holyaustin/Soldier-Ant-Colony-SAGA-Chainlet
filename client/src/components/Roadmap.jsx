@@ -46,61 +46,61 @@ const Services = () => (
       <div className="flex-1 flex flex-col justify-start items-left text-2xl text-black">
         <ServiceCard
           color="bg-[#000000]"
-          title="Q2 2022"
+          title="Q2 2023"
           icon={<BsShieldFillCheck fontSize={21} className="text-blue-700" />}
           subtitle="Finish Whitepaper v1.0 for Soldier Ant Colony"
         />
         <ServiceCard
           color="bg-[#000000]"
-          title="Q2 2022"
+          title="Q2 2023"
           icon={<BiSearchAlt fontSize={21} className="text-blue-700" />}
           subtitle="The First Batch of Game Characters."
         />
         <ServiceCard
           color="bg-[#000000]"
-          title="Q2 2022"
+          title="Q2 2023"
           icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
           subtitle="Main Gaming Framework Development"
         />
         <ServiceCard
           color="bg-[#000000]"
-          title="Q3 2022 "
+          title="Q3 2023 "
           icon={<BsShieldFillCheck fontSize={21} className="text-blue-700" />}
-          subtitle="NFT Contract Development   "
+          subtitle="NFT Contract Development with Rewards  "
         />
         <ServiceCard
           color="bg-[#000000]"
-          title="Q3 2022"
+          title="Q3 2023"
           icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
-          subtitle="Access Wallet Function Integration"
+          subtitle="Access Wallet Function Integration, DEPLOY TO MAINNET"
         />
         <ServiceCard
           color="bg-[#000000]"
-          title="Q3 2022"
+          title="Q3 2023"
           icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
-          subtitle="Official Website & Marketplace Establishment"
+          subtitle="Official Website & Marketplace Live"
         />
         <ServiceCard
           color="bg-[#000000]"
-          title="Q3 / Q4 2022"
+          title="Q3 / Q4 2023"
           icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
           subtitle="Global Community on Twitter, Discord, Reddit, Facebook, Telegram"
         />
         <ServiceCard
           color="bg-[#000000]"
-          title="Q1 2023"
+          title="Q1 2024"
           icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
           subtitle="DAO - Decentralized Community Launch"
         />
         <ServiceCard
           color="bg-[#000000]"
-          title="Q1 2023"
+          title="Q1 2024"
           icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
           subtitle="NFT Marketplace Character collaboration by community members"
         />
         <ServiceCard
           color="bg-[#000000]"
-          title="Q2 2023"
+          title="Q2 2024"
           icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
           subtitle="Metaverse Integration"
         />
