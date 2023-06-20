@@ -9,13 +9,13 @@ module.exports = {
     },
    
     testnet: {
-      url: "https://data-seed-prebsc-1-s1.binance.org:8545", 
+      url: "https://soldierant-1687185722549573-1.jsonrpc.sp1.sagarpc.io", 
       // chainId: 97,
       accounts: [process.env.PRIVATE_KEY],
     },
 
     mainnet: {
-      url: "https://bsc-dataseed.binance.org/", 
+      url: "soldierant-1687185722549573-1.jsonrpc.sp1.sagarpc.io", 
       // chainId: 56,
       accounts: [process.env.PRIVATE_KEY],
     },
