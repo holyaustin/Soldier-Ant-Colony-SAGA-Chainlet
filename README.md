@@ -15,9 +15,9 @@ Try running some of the following tasks:
 
 Fork this repo using
 
-git clone https://github.com/holyaustin/Soldier-Ant-Colony-BNB.git
+git clone https://github.com/holyaustin/Soldier-Ant-Colony-SAGA-Chainlet.git
 
-cd Soldier-Ant-Colony-BNB
+cd Soldier-Ant-Colony-SAGA-Chainlet
 
 npx hardhat node
 
@@ -38,14 +38,23 @@ Marketplace Explorer Url: https://testnet.bscscan.com/address/0xc310585ad34ddef5
 
 
 ## How to play
-Final project deployed to BNBTestnet
-1. Switch your wallet network to BNB Testnet
+Final project deployed to Soldier-Ant Testnet
+1. Switch your wallet network to Soldier-Ant Testnet
 2. Connect you wallet
 3. Mint a character from our Marketplace
 4. Enagege in the quest to get the lucky food slide
 5. You win if you get the food before your life decreases to Zero
 6. You earn a reward (An NFT to your wallet) 
 7. <Token reward coming soon>
+   
+
+   ## How to Test ANT Token to play
+Send a request to my twitter account with "ANT token request - Wallet address"
+1. replace wallet address with the address you want a token on. You will get some test token right away.
+2. The test token can also be used to mint the NFT from the marketplace
+3. Mint a character from our Marketplace
+4. You earn a rewards in ANT token also
+
    
 
 ## Protocols Used in this Project
