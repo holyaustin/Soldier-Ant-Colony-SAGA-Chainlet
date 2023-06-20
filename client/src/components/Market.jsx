@@ -23,7 +23,7 @@ export default function Market() {
     return ipfsGateWayURL;
   };
 
-  const rpcUrl = "https://data-seed-prebsc-1-s1.binance.org:8545";
+  const rpcUrl = "https://soldierant-1687185722549573-1.jsonrpc.sp1.sagarpc.io";
   // const rpcUrl = "http://localhost:8545";
 
   async function loadAssets() {
@@ -95,7 +95,7 @@ export default function Market() {
 
             <div key={i} className="shadow rounded-xl overflow-hidden border-2 border-gray-500 bg-purple-200">
               <div className="p-1">
-                <p style={{ height: "34px" }} className="text-2xl text-red-700 font-semibold">Price: {nft.price} BNB</p>
+                <p style={{ height: "34px" }} className="text-2xl text-red-700 font-semibold">Price: {nft.price} ANT</p>
 
               </div>
               <img

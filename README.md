@@ -1,8 +1,8 @@
-# Soldier Ant Colony BNB Chain Zero2Hero HackathonBNB Chain Zero2Hero Hackathon
+# Soldier Ant Colony SAGA-Chainlet
 ### An epic web3 game that mimics the bio-inspration of soldier-ant for food hunt. Players finds it easy to play and earn as well as collaborating to create game characters and sell in the game marketplace.
 
 ## Introduction
-This project was built as part of the 2023 Hackathon. The project is submitted as a GameFi, NFT and Meterverse Track project. Soldier Ant Colony BNB Chain Zero2Hero HackathonBNB Chain Zero2Hero Hackathon
+This project was built as part of the SAGA Multiverse 2023 Hackathon. The project is submitted as a GameFi, NFT and Meterverse Track project. Soldier Ant Colony B SAGA-Chainlet.
 
 ![Soldier-Ant](https://github.com/holyaustin/Soldier-Ant-Colony-BNB/blob/main/client/src/assets/bg1.gif)
 
@@ -51,31 +51,20 @@ Final project deployed to BNBTestnet
 ## Protocols Used in this Project
 Uniswap: THe Unisawp widget was used to creating an innovative tools, service, and
 application that attract users, developers, and liquidity providers, promoting collaboration
-and synergy between the Ethereum and Binance Smart Chain communities.A total of six (6) blockchain RPCs was added to help users swap currencies in six different blocchains. This products leverages the power of  Uniswap V3's capabilities on BSC, and other chainsto create opportunities that
-encourage liquidity providers to support the expansion of the Uniswap V3 ecosystem on BSC and other chains.
+and synergy between the Ethereum and Binance Smart Chain communities.A total of six (6) blockchain RPCs was added to help users swap currencies in six different blockchains. 
 
-Chainlink (VRF and Automation) Automation was used to set the Marketplace NFT alert and Game character Miniting Automation Alert. The VRF is implemented in the epicgame contract. Automation links are below:
-ChainLink NFT1: https://automation.chain.link/bnb-chain-testnet/56369752883797138944621685627371544339948876050928539202810431358204769632043
+Looking to see how to integrate  SAGA-Chainlet into a swap protocol like uniswap.
 
-Mint Charccter NFT : https://automation.chain.link/bnb-chain-testnet/57697752071177149944891035008091986159429241676476865479089053242978330993962
+MIPFS/Filecoin (NFT.Storage) used to stored NFT marketplace Charcaters
 
-
-IPFS/Filecoin (NFT.Storage) used to stored NFT marketplace Charcaters
-
-BNB Testnet : Contracts deployed to the following address on BNB Testnet : 
-(Game Address = 0x085446624cA30579532B12B7EAeD211B1E6Ac1de) and
-(marketplaceAddress = "0xC310585aD34ddEF51009A9C92f38E8bA8A5d2375)
+ SAGA-Chainlet Testnet : Contracts deployed to the following address on BNB Testnet : 
+(Game Address = 0xe078fe7A93017F8e18c1C52E79632d0B94c56c26) and
+(marketplaceAddress = 0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11)
 
 Particle WaaS Connect Wallet Integration: WaaS(Wallet-as-a-Service) SDKs (including Connect, Auth, Wallet
 SDK ) was implemented to realize an in-app social login authentication and wallet functionalities. This was crucial to help web3 Gamers from the gamers guiuld seemlessly onboard into this web3 game.
 
-Automata (1RPC) : we showcased the practical usage, integration, or development of 1RPC in on Uniswap v3 widget. The implementation was for sic (6) Blockchains in a relevant manner.
-
 Vercel - live hosting of the frontend
-
-Blockless: https://F1-992d8f48.bls.dev
-
-Polyhedra Network zkBridge: https://zkbridge.com/nft
 
 
 ## Tools Used in this Project
@@ -93,9 +82,9 @@ Visual studio code
 
 
 ## Demo / Live Links
-Live Dapp - https://soldier-ant-colony-bnb.vercel.app
+Live Dapp - https://soldier-ant-colony-saga.vercel.app
 
-https://soldier-ant-colony-bnb.vercel.app/
+https://soldier-ant-colony-saga.vercel.app/
 
 Youtube Url: https://youtu.be/WX1lPN36cfI
 

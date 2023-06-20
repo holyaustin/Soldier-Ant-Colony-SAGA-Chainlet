@@ -134,8 +134,8 @@ const App = () => {
 
   const checkNetwork = async () => {
     try {
-      if (window.ethereum.networkVersion !== "97") {
-        alert("Please change your Blockchain network to BNB Testnet!");
+      if (window.ethereum.networkVersion !== "1687185722549573") {
+        alert("Please change your Wallet network to Soldier-Ant Testnet!");
         navigate("/");
       }
     } catch (error) {

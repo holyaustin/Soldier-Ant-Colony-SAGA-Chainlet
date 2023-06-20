@@ -59,7 +59,7 @@ const MintCharacter = () => {
 
   const sendTxToBlockchain = async (metaData) => {
     try {
-      setTxStatus("connecting to BNB Testnet Blockchain.");
+      setTxStatus("connecting to Solsier Ant Testnet Blockchain.");
       const web3Modal = new Web3Modal();
       const connection = await web3Modal.connect();
       const provider = new ethers.providers.Web3Provider(connection);
@@ -75,7 +75,7 @@ const MintCharacter = () => {
       await mintNFTTx.wait();
       return mintNFTTx;
     } catch (error) {
-      setErrorMessage("Failed to send tx to BNB Testnet.");
+      setErrorMessage("Failed to send tx to Soldier-Ant Testnet.");
       console.log(error);
     }
   };
@@ -137,7 +137,7 @@ const MintCharacter = () => {
             onChange={(e) => updateFormInput({ ...formInput, hp: e.target.value })}
           />
           <input
-            placeholder="Asset Price in BNB"
+            placeholder="Asset Price in ANT"
             className="mt-5 border rounded p-4 text-xl"
             onChange={(e) => updateFormInput({ ...formInput, price: e.target.value })}
           />
