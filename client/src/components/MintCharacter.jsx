@@ -59,7 +59,7 @@ const MintCharacter = () => {
 
   const sendTxToBlockchain = async (metaData) => {
     try {
-      setTxStatus("connecting to Solsier Ant Testnet Blockchain.");
+      setTxStatus("connecting to Soldier Ant Testnet Blockchain.");
       const web3Modal = new Web3Modal();
       const connection = await web3Modal.connect();
       const provider = new ethers.providers.Web3Provider(connection);

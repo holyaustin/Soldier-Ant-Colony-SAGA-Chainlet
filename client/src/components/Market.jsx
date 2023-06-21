@@ -101,7 +101,6 @@ export default function Market() {
               <img
                 title="Asset"
                 frameBorder="0"
-                scrolling="no"
                 height="300px"
                 width="100%"
                 src={`${nft.image}#toolbar=0`}

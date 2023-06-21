@@ -10,3 +10,4 @@ export { default as Market } from "./Market";
 export { default as App } from "./App";
 export { default as EvmDemo } from "./connect-evm-demo";
 export { default as Particle } from "./Particle.tsx";
+export { default as Faucet } from "./faucetAnt";

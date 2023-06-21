@@ -2,10 +2,9 @@ import React from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import ConnectSequence from "./sequencewallet.tsx";
+// import ConnectSequence from "./sequencewallet.tsx";
 import logo from "../assets/logo.png";
 import Particle from "./Particle.tsx";
-//import SwapToken from "./pages/swaptoken";
 
 const NavBarItem = ({ title, classprops }) => (
   <li className={`mx-4 cursor-pointer ${classprops}`}>{title}</li>
@@ -25,6 +24,8 @@ const Navbar = () => {
         <Link to="/marketplace">MarketPlace</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <Link to="/create">Collaborate</Link>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <Link to="/faucet">Faucet</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <Link to="/swaptoken">SwapToken</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>

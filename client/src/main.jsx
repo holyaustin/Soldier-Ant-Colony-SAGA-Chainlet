@@ -7,6 +7,7 @@ import MarketPlace from "./pages/marketplace";
 import Create from "./pages/create";
 import BattleGround from "./pages/battleground";
 import SwapToken from "./pages/swaptoken";
+import Faucet from "./pages/faucet";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="marketplace" element={<MarketPlace />} />
       <Route path="create" element={<Create />} />
       <Route path="SwapToken" element={<SwapToken />} />
+      <Route path="faucet" element={<Faucet />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root"),

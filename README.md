@@ -66,7 +66,7 @@ Looking to see how to integrate  SAGA-Chainlet into a swap protocol like uniswap
 
 MIPFS/Filecoin (NFT.Storage) used to stored NFT marketplace Charcaters
 
- SAGA-Chainlet Testnet : Contracts deployed to the following address on BNB Testnet : 
+ SAGA-Chainlet Testnet : Contracts deployed to the following address on Soldier-Ant Testnet : 
 (Game Address = 0xe078fe7A93017F8e18c1C52E79632d0B94c56c26) and
 (marketplaceAddress = 0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11)
 
@@ -95,7 +95,10 @@ Live Dapp - https://soldier-ant-colony-saga.vercel.app
 
 https://soldier-ant-colony-saga.vercel.app/
 
-Youtube Url: https://youtu.be/WX1lPN36cfI
+Youtube Url: https://youtu.be/f3Dbh1i6pXE 
+or
+https://youtu.be/WX1lPN36cfI
+
 
 
 ## Connect with me and send me a mail
