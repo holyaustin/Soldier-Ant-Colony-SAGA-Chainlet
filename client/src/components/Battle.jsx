@@ -7,7 +7,7 @@ import SelectCharacter from "./SelectCharacter";
 import myEpicGame from "../utils/MyEpicGame.json";
 import Arena from "./Arena";
 import LoadingIndicator from "./LoadingIndicator";
-import Footer  from "./Footer";
+import Footer from "./Footer";
 import bgvideo from "../assets/foodsearch.mp4";
 
 /*
@@ -135,7 +135,7 @@ const App = () => {
   const checkNetwork = async () => {
     try {
       if (window.ethereum.networkVersion !== "1687185722549573") {
-        alert("Please change your Wallet network to Soldier-Ant Testnet!");
+        alert("Please change your Wallet network to Soldier-Ant Testnet!, Send your wallet address to @holyaustin on twitter to get Ant tokens for gas.");
         navigate("/");
       }
     } catch (error) {
@@ -201,6 +201,7 @@ const App = () => {
          */}
         <div className="header-container">
           <Link to="/">
+            <p className="sub-text  text-red-800">Need Ant token for Gas, Send your wallet address to @holyaustin on twitter.</p>
             <p className="header gradient-text">⚔️ Soldier Ant Colony⚔️</p>
           </Link>
           <p className="sub-text">Quest for food ... Only lucky colonies grab the food!</p>
@@ -232,9 +233,8 @@ const App = () => {
       </div>
       <Footer />
     </div>
-    
+
   );
-  
 };
-<Footer />
+  <Footer />;
 export default App;

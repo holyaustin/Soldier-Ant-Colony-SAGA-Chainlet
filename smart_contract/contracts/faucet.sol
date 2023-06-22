@@ -5,7 +5,7 @@ contract FaucetAnt {
 
 address contAddr = 0xe078fe7A93017F8e18c1C52E79632d0B94c56c26;
  mapping(address=>uint) lastTransfers;
- uint amountToWithdraw = 10 ** 18 * 5;
+ uint amountToWithdraw = 10 ** 18 * 10;
 	
 
  function requestTokens(address payable requestor) external {
